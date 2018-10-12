@@ -16,7 +16,6 @@
 ```
 npm run build
 ```  
- 
 6. 执行docker-compose命令构建镜像  
 ```
 docker-compose build
@@ -25,6 +24,6 @@ docker-compose build
 ```
 docker-compose up -d
 ```
-8. 测试vue项目是否部署成功，通过ip+宿主机的映射端口进行访问
-可以将镜像直接推送到阿里云镜像仓库，再到服务器上拉去镜像后部署
+8. 测试vue项目是否部署成功，通过ip+宿主机的映射端口进行访问，
+可以将镜像直接推送到阿里云镜像仓库，再到服务器上拉去镜像后部署，
 通过jenkins+docker实现容器的自动化部署
